@@ -27,7 +27,8 @@ function computerSelection() {
 function playerSelection() {
     let pick
     while (!PLAYABLE_OBJETCS.includes(pick)) {
-        pick = prompt("Write an object", " ").toLowerCase()
+        pick = prompt("Write an object", "")
+        pick = pick ? pick.toLowerCase()
     }
     return pick
 }
