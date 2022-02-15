@@ -62,6 +62,6 @@ function main(playerSelection, computerSelection) {
             waitingRestart = true;
             comment.textContent = "You have lost :c. Try again by clicking in any button.";
         }
-        else comment.textContent = `You lose! ${capitalize(computerSelection)} beats ${capitalize(playerSelection)}`;
+        else comment.textContent = `You lose! ${capitalize(computerSelection)} beats ${capitalize(playerSelection)}.`;
     }
 }
