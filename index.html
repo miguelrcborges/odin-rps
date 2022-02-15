@@ -3,11 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
 
 
-    <body>
-
+    <body class="flex-down center">
+        <h1>Rock Paper Scissors</h1>
+        <div id="comment">Play against the machine!</div>
+        <div class="flex-right space-evenly set-width">
+            <div class="option" data-option="rock">Rock</div>
+            <div class="option" data-option="paper">Paper</div>
+            <div class="option" data-option="scissors">Scissors</div>
+        </div>
+        <div class="flex-right space-evenly set-width">
+            <p id="score">Your score: 0</p>
+            <p id="score">Computer's score: 0</p>
+        </div>
         <script src="js/main.js"></script>
     </body>
 </html>
