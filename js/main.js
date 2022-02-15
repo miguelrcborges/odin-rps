@@ -46,7 +46,7 @@ function main(playerSelection, computerSelection) {
     }
     
     console.log(playerSelection, computerSelection)
-    if (playerSelection === computerSelection) { comment.textContent = `It's a tie! Both played ${capitalize(playerSelection}).` }
+    if (playerSelection === computerSelection) { comment.textContent = `It's a tie! Both played ${capitalize(playerSelection)}.` }
     else if (RESULTS[playerSelection][computerSelection]) {
         playerPoints++;
         scores[0].textContent = scores[0].textContent.slice(0,-1) + playerPoints;
